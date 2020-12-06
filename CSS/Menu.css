@@ -1,0 +1,63 @@
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li 
+{
+   list-style-type: none;
+   width: 25%;
+}
+
+.TailleNavbar
+{
+    font-size: 15px;
+}
+
+nav a 
+{
+    display: block;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li:hover a
+{
+    padding: 10px 30px 20px 30px;
+}
+
+.mesinfos:hover
+{
+    background-color: teal;
+}
+.menuformation:hover
+{
+    background-color: teal;
+}
+
+.menuexperiences:hover
+{
+    background-color: teal;
+}
+
+.menucontact:hover
+{
+    background-color: teal;
+}
+
+/*****
+** partie responsive
+*****/
+
+@media (max-width: 768px)
+{
+    .TailleNavbar
+    {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,372 @@
+body
+{
+    font-family: 'Berlin Sans FB', 'Trebuchet MS';
+    width: 90%;
+    margin: auto;
+}
+
+.Taille
+{
+font-size: 25px;
+}
+
+.Skyblue
+{
+ color: lightskyblue;
+}
+
+.Mediumblue
+{
+ color: mediumblue;
+}
+
+.Seagreen
+{
+ color: mediumseagreen;
+}
+
+.textcenter
+{
+text-align: center;
+}
+
+.colorwhite
+{
+    color: white;
+}
+
+.bg-color
+{
+    background-color: royalblue;
+}
+
+h2
+{
+    padding: 0px;
+    margin: 30px 0px;
+}
+
+hr
+{
+  
+    border: none;
+    margin-top: 40px;
+    border-top: 1px double blueviolet;
+    height: 5px;
+}
+
+.gauche
+{
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.droite
+{
+    float: left;
+    margin-left: 7%;
+    margin-bottom: 10px;
+}
+
+
+.clear
+{
+    clear: both;
+} 
+
+/*****
+** Header
+*****/
+
+.header
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url('../Images/logo_hiver.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.header .MaPhoto
+{
+    width: 33%;
+}
+  
+.header .MaPhoto img
+{
+    width : 130px; 
+    height : 130px;
+    border-radius: 100px;
+}
+
+.header .MonTitre
+{
+    flex: auto;
+}
+
+.header .InfoPerso
+{
+    width: 33%;
+}
+
+
+/*****
+** Fin Header
+*****/
+
+/*****
+** Footer
+*****/
+
+.footer
+{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*****
+** Fin Footer
+*****/
+
+/*****
+** Corps
+*****/
+.corps
+{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.TailleCorps
+{
+    font-size: 18px;
+}
+
+.PoliceCorps
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.Masynthese
+{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Mesemplois
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.MesEntreprises
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.MesEcoles
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.MesContacts
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-left: 10px;
+}
+
+.Formcontact
+{
+    margin: auto;
+}
+
+.competences table
+{
+    width: 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.competences table td
+{
+    padding: 10px 20px;
+    border: 1px solid skyblue;
+    width: 33%;
+}
+
+.competences th
+{
+    padding: 10px 20px;
+    border: 1px solid skyblue;
+    width: 33%;
+}
+
+.titres
+{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.col1
+{
+    width: 30%;
+    color: skyblue;
+}
+
+.col2
+{
+    width: 60%;
+}
+
+.projets
+{
+    color: blueviolet;
+}
+
+.parcours
+{
+    color: blueviolet;
+}
+
+.LogoEntreprises
+{
+    width: 100px;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.LogoFormations
+{
+    width: 100px;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+/*****
+** partie contact
+*****/
+
+label
+{
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.BoutonValider
+{
+    margin-left: 200px;
+    width: 15%;
+    background-color: skyblue;
+    color: snow;
+}
+
+/*****
+** partie responsive
+*****/
+
+@media(max-width:767px)
+{
+    .Taille
+    {
+        font-size: 13px;
+    }
+    .TailleCorps
+    {
+        font-size: 10px;
+    }
+    .Masynthese
+    {
+        font-size: 12px;
+    }
+    .header .MaPhoto img
+    {
+        width : 80px; 
+        height : 80px;
+        border-radius: 40px;
+    }
+    .TailleNavbar
+    {
+        font-size: 15px;
+    }
+    .col1
+    {
+        width: 30%;
+        color: skyblue;
+    }
+
+    .col2
+    {
+        width: 60%;
+    }
+    .LogoEntreprises
+    {
+        width: 50px;
+        padding-left: 5%;
+        margin-top: 2%;
+    }
+    .LogoFormations
+    {
+        width: 50px;
+        padding-left: 5%;
+        margin-top: 2%;
+    }
+}
+@media(min-width:768px) and (max-width:1200px)
+{
+    .Taille
+    {
+        font-size: 18px;
+    }
+    .TailleCorps
+    {
+        font-size: 13px;
+    }
+    .Masynthese
+    {
+        font-size: 14px;
+    }
+    .header .MaPhoto img
+    {
+        width : 100px; 
+        height : 100px;
+        border-radius: 50px;
+    }
+    .TailleNavbar
+    {
+        font-size: 18px;
+    }
+    .col1
+    {
+        width: 30%;
+        color: skyblue;
+    }
+
+    .col2
+    {
+        width: 60%;
+    }
+    .LogoEntreprises
+    {
+        width: 70px;
+        padding-left: 8%;
+        margin-top: 5%;
+    }
+    .LogoFormations
+    {
+        width: 70px;
+        padding-left: 8%;
+        margin-top: 5%;
+    }
+}
